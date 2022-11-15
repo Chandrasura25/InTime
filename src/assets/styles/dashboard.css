@@ -100,13 +100,14 @@
   width: 100%;
   padding: 40px 0;
 }
-.summary .insideBx,.quickSuggest{
+.summary .insideBx,
+.quickSuggest {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-} 
+}
 .head {
   position: relative;
   width: 100%;
@@ -122,19 +123,22 @@
 }
 .head .name i {
   line-height: 1.1em;
-} 
+}
 .head .clock {
   color: var(--clr);
 }
-.insideBx .risks .head h3,.quickSuggest .head h3  {
+.insideBx .risks .head h3,
+.quickSuggest .head h3 {
   font-weight: 600;
   font-size: 1.4em;
 }
-.insideBx .risks .head .clk,.quickSuggest .head .clk  {
+.insideBx .risks .head .clk,
+.quickSuggest .head .clk {
   font-weight: 400;
   font-size: 0.9em;
 }
-.insideBx .risks .head span,.quickSuggest .head span {
+.insideBx .risks .head span,
+.quickSuggest .head span {
   display: flex;
   gap: 6px;
 }
@@ -223,7 +227,9 @@
 .lastBlock .boxes div p:nth-child(2) .arrow {
   font-size: 0.6em;
 }
-.risks,.quickTune, .suggest,
+.risks,
+.quickTune,
+.suggest,
 .dailyGoal {
   position: relative;
   width: 50%;
@@ -353,34 +359,52 @@ svg circle:nth-child(2) {
   transform: translateY(5px);
   font-size: 16px;
 }
-.body{
+.body {
   position: relative;
-  border: 2px solid red;
 }
-.terms{
+.terms,
+.cubeBx {
   display: flex;
   gap: 20px;
   align-items: center;
 }
-.chop{
+.chop {
   display: grid;
 }
-.chop p{
+.chop p {
   text-align: center;
-  font-size: 1.2em;
-  color: #33466A;
+  font-size: 1.1em;
+  color: #33466a;
+  white-space: nowrap;
 }
-.cube{
-  height: 50px;
+.cubeBx {
+  gap: 10px;
+}
+.cubeBx .slash {
+  color: #33466a;
+  font-size: 2em;
+}
+.cubeBx .cube {
+  width: 50px;
+}
+.cubeBx .onBx{
+  display: grid;
+}
+.cubeBx .onBx p{
+  font-size: 0.8em;
+  color: #33466a;
+}
+.cube {
+  height: 35px;
   width: 100px;
-  background: #E6EFFF;
+  background: #e6efff;
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
 }
-.cube span{
-  color: #ADB8C7;
+.cube span {
+  color: #adb8c7;
   font-size: 0.95em;
 }
 @media (max-width: 991px) {
@@ -419,20 +443,20 @@ svg circle:nth-child(2) {
   .profilePic span {
     font-size: 1.2em;
   }
-  .profilePic{
+  .profilePic {
     gap: 10px;
   }
 }
 @media (max-width: 535px) {
-  .summary .boxes{
-    grid-template-columns: repeat(2,1fr);
+  .summary .boxes {
+    grid-template-columns: repeat(2, 1fr);
   }
   .summary .boxes {
     width: calc(100% / 2);
   }
 }
 @media (max-width: 490px) {
-  .slide{
+  .slide {
     width: 22%;
   }
   #radio1:checked ~ .first {

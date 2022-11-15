@@ -55,17 +55,28 @@ const Dashboard = () => {
                                             </div>
                                         </div>
                                         <div className="chop">
-                                            <p>Weight</p>
-                                            <div className="cube">
-                                                <p>70</p>
-                                                <span>k<sub>A</sub></span>
+                                            <p>Blood pressure</p>
+                                            <div className="cubeBx">
+                                                <div className="onBx">
+                                                    <div className="cube">
+                                                        <p>70</p>
+                                                    </div>
+                                                    <p>systolic</p>
+                                                </div>
+                                                <p className="slash">/</p>
+                                                <div className="onBx">
+                                                    <div className="cube">
+                                                        <p>70</p>
+                                                    </div>
+                                                    <p>diastolic</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="chop">
-                                            <p>Weight</p>
+                                            <p>Heart rate</p>
                                             <div className="cube">
                                                 <p>70</p>
-                                                <span>k<sub>A</sub></span>
+                                                <span>BMP</span>
                                             </div>
                                         </div>
                                         <div className="chop">
