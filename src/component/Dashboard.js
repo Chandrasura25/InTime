@@ -66,17 +66,26 @@ const Dashboard = () => {
                                             <div className="prior">
                                                 <p>
                                                     <img src={rect} alt="" /></p>
-                                                <p>Middle</p>
+                                                <p className='midshape'>Middle</p>
                                             </div>
                                             <div className="prior">
                                                 <p>
                                                     <img src={triangle} alt="" /></p>
-                                                <p>High</p>
+                                                <p className='high'>High</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="eachShape">
-                                        
+                                        <div className="firstline">
+                                            <div className="first">
+                                                <div className='shapes walk'>
+                                                <p>
+                                                    <img src={triangle} alt="" /></p>
+                                                <p>Walk more than 8k steps per day</p>
+                                                </div>
+                                                <hr className='hr'/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

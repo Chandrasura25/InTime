@@ -235,6 +235,12 @@
   width: 50%;
   height: 500px;
 }
+.quickTune,
+.suggest {
+  position: relative;
+  width: 50%;
+  height: 100px;
+}
 .sliding {
   position: relative;
   overflow: hidden;
@@ -422,7 +428,7 @@ svg circle:nth-child(2) {
 }
 .suggBody .lineBody .prior,.shapes{
   display: flex;
-  gap: 5px;
+  gap: 7px;
 }
 .suggBody .lineBody .prior p{
   font-size: 16px;
@@ -431,11 +437,27 @@ svg circle:nth-child(2) {
   transform: translateY(-5px); 
   height: 16px;
 }
+.midshape{
+  color: #a59d7c;
+}
+.high{
+  color:#6E2121;
+}
+.shapes.walk{
+  gap: 20px;
+}
+.hr{
+  border-color: #27a0ff;
+  margin-top: 15px;
+}
 .shapes .lineBody .prior p:nth-child(1){
   height: 16px;
 }
 .shapes .lineBody .prior:nth-child(2) p img{
   width: 90%;
+}
+.eachShape{
+  margin-top: 30px;
 }
 @media (max-width: 991px) {
   .summary .insideBx {
