@@ -407,6 +407,36 @@ svg circle:nth-child(2) {
   color: #adb8c7;
   font-size: 0.95em;
 }
+.suggBody{
+  position: relative;
+  padding: 20px 30px;
+}
+.suggBody .lineBody{
+  border: 1px solid #3683fc;
+  height: 45px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.suggBody .lineBody .prior,.shapes{
+  display: flex;
+  gap: 5px;
+}
+.suggBody .lineBody .prior p{
+  font-size: 16px;
+}
+.suggBody .lineBody .prior .two{
+  transform: translateY(-5px); 
+  height: 16px;
+}
+.shapes .lineBody .prior p:nth-child(1){
+  height: 16px;
+}
+.shapes .lineBody .prior:nth-child(2) p img{
+  width: 90%;
+}
 @media (max-width: 991px) {
   .summary .insideBx {
     display: grid;
